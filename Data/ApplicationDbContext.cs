@@ -45,6 +45,7 @@ namespace LibApp.Data
                     MembershipTypeId = 2
 
                 },
+              
                 new Customer
                 {
                     Id = 3,
@@ -77,19 +78,17 @@ namespace LibApp.Data
                 Id = 6,
                 Name = "Damian",
                 GenreId = 1,
-                AuthorName = "Mroz",
+                AuthorName = "jax",
                 DateAdded = new DateTime(2000, 1, 12),
                 ReleaseDate = new DateTime(1999, 1, 10)
 
-            },
-            
-            
-            
+            },          
+
             new Book
             {
                 Id = 7,
                 Name = "Ogien i Wiara",
-                GenreId = 2,
+                GenreId = 3,
                 AuthorName = "Mroz",
                 DateAdded = new DateTime(2000, 1, 12),
                 ReleaseDate = new DateTime(1999, 1, 10)

@@ -61,7 +61,7 @@ namespace LibApp.Data.Migrations
                         {
                             Id = 5,
                             AuthorName = "Mroz",
-                            DateAdded = new DateTime(2000, 1, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            DateAdded = new DateTime(2000, 11, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             GenreId = (byte)2,
                             Name = "Nela",
                             NumberAvailable = 0,
@@ -75,6 +75,17 @@ namespace LibApp.Data.Migrations
                             DateAdded = new DateTime(2000, 1, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             GenreId = (byte)1,
                             Name = "Damian",
+                            NumberAvailable = 0,
+                            NumberInStock = 0,
+                            ReleaseDate = new DateTime(1999, 1, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                        },
+                        new
+                        {
+                            Id = 7,
+                            AuthorName = "Mroz",
+                            DateAdded = new DateTime(2000, 1, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            GenreId = (byte)2,
+                            Name = "Ogien i Wiara",
                             NumberAvailable = 0,
                             NumberInStock = 0,
                             ReleaseDate = new DateTime(1999, 1, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -112,7 +123,7 @@ namespace LibApp.Data.Migrations
                         new
                         {
                             Id = 1,
-                            Birthdate = new DateTime(2001, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Birthdate = new DateTime(2001, 11, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             HasNewsletterSubscribed = false,
                             MembershipTypeId = (byte)1,
                             Name = "Pawel "
@@ -120,7 +131,7 @@ namespace LibApp.Data.Migrations
                         new
                         {
                             Id = 2,
-                            Birthdate = new DateTime(2002, 2, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Birthdate = new DateTime(2002, 12, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             HasNewsletterSubscribed = false,
                             MembershipTypeId = (byte)2,
                             Name = "ALA"
@@ -128,7 +139,7 @@ namespace LibApp.Data.Migrations
                         new
                         {
                             Id = 3,
-                            Birthdate = new DateTime(2003, 3, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Birthdate = new DateTime(2003, 3, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             HasNewsletterSubscribed = false,
                             MembershipTypeId = (byte)3,
                             Name = "Ola ciska"
